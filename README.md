@@ -1,2 +1,2 @@
 # Flappy-bro
- A Flappy Bird clone used to learn C-sharp and Unity.
+ A Flappy Bird clone made with C# and Unity. Beginner Unity Project.
