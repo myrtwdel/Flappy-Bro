@@ -12,13 +12,19 @@ public class TitleScreenLogicScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        titleScreen.SetActive(true);
+        //titleScreen.SetActive(true);
     }
 
     // Update is called once per frame
     void Update()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
     }
+
+    public void startGame()
+    {
+        SceneManager.LoadScene("GameScene");
+    }
+
 }
+

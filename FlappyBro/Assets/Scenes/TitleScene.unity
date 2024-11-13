@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb91090786581e44fa25277390977a2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  titleScreen: {fileID: 845273974}
+  titleScreen: {fileID: 0}
 --- !u!1 &408241659
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,7 +325,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 408241662}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 272467990}
+        m_TargetAssemblyTypeName: TitleScreenLogicScript, Assembly-CSharp
+        m_MethodName: startGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &408241662
 MonoBehaviour:
   m_ObjectHideFlags: 0
